@@ -44,3 +44,10 @@ nav a:hover /*Add comments of what this does*/
     color: orange;
     text-decoration: underline;
 }
+
+/*To force the image on the website to fit to our desired size*/
+img
+{
+    width: 500px;
+    height: auto;
+}
