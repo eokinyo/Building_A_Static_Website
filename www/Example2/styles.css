@@ -2,5 +2,7 @@
 
 body
 {
-    background-color: aqua;
+    background-color: rgb(135, 187, 187);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(45, 43, 43);
 }
