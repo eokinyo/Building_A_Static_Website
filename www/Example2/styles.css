@@ -1,0 +1,6 @@
+/* It is good idea to start by formating the background colour to see if the styles are working corrently. Later on, you can remove the color if you are not interested in having it anymore.*/
+
+body
+{
+    background-color: aqua;
+}
