@@ -30,3 +30,17 @@ nav ul
 
 /*Padding: the distance inside an element*/
 /*Margin: the distance between two elements*/
+
+nav a:visited, nav a:active/*Add comments of what this does*/
+{
+    color: rgb(45, 43, 43);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Hover = mouse is on an element*/
+nav a:hover /*Add comments of what this does*/
+{
+    color: orange;
+    text-decoration: underline;
+}
