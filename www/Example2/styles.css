@@ -17,6 +17,7 @@ body
 nav li
 {
     display: inline;
+    margin-right: 16px; /*This adds margins to the right of the elements*/
 }
 
 /*To remove the extra spacing on the left side of the navigation*/
@@ -24,3 +25,8 @@ nav ul
 {
     padding-left: 0;
 }
+
+/*To change the distance between two elements*/
+
+/*Padding: the distance inside an element*/
+/*Margin: the distance between two elements*/
