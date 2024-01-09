@@ -18,3 +18,9 @@ nav li
 {
     display: inline;
 }
+
+/*To remove the extra spacing on the left side of the navigation*/
+nav ul
+{
+    padding-left: 0;
+}
