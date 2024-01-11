@@ -1,0 +1,32 @@
+body
+{
+    background-color: rgb(133, 245, 245);
+}
+
+article
+{
+    width: 740px;
+    margin: 16px auto;
+}
+
+/*If the browser width is smaller than 600 px*/
+@media (max-width: 900px) 
+{
+    body
+    {
+        background-color: azure;
+    }
+}
+
+
+@media (max-width: 600px) 
+{
+    body
+    {
+        background-color: pink;
+    }
+    article
+    {
+        width: 90px;
+    }
+}
