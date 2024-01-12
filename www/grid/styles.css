@@ -1,0 +1,9 @@
+.cards
+{
+    width: 900px;
+    margin: 16px auto;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr; We can use this*/
+    grid-template-columns: 300px 300px 300px;
+    gap: 16px;
+}
