@@ -1,0 +1,35 @@
+footer
+{
+    background-color: rgb(227, 235, 119);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+.left
+{
+    background-color: aqua;
+    /*flex: 2;*/
+    width: 200px;
+}
+
+.right
+{
+    background-color: burlywood;
+    /*flex: 1;*/
+    width: 200px;
+}
+
+@media (max-width: 500px) /*NOT WORKING*/
+{
+    footer
+    {
+        /*display: block;*/
+        flex-direction: column;
+    }
+    .left, .right
+    {
+        width: 100%;
+    }
+}
