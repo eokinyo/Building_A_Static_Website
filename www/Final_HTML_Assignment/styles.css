@@ -1,0 +1,46 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar-nav a, .navbar-nav a:visited, .navbar-nav a:active/*Add comments of what this does*/
+{
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 2em;
+    font-weight: normal !important;
+    line-height: 1.2;
+    margin-left: 0;
+}
+
+h1, h2, h3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn
+{
+    background-color: rgb(114, 230, 230);
+    border-color: rgb(114, 230, 230);
+
+}
+
+.btn:hover
+{
+    background-color: rgb(87, 199, 201);
+    border-color: rgb(96, 231, 234);
+}

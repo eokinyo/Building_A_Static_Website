@@ -21,7 +21,7 @@ footer
     width: 200px;
 }
 
-@media (max-width: 500px) /*NOT WORKING*/
+@media 
 {
     footer
     {
